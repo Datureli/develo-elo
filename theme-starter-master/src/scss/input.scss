@@ -1,0 +1,29 @@
+.input {
+  color: var(--black);
+  width: 26.4rem;
+  height: 3.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  padding: 10px;
+  border-radius: .4rem;
+}
+
+@include min-size(md) {
+  .input {
+  }
+}
+
+@include min-size(lg) {
+  .input {
+  }
+}
+
+@include min-size(xl) {
+  .input {
+  }
+}
+
+@include min-size(xxl) {
+  .input {
+  }
+}
