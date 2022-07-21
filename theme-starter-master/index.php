@@ -4,9 +4,9 @@ get_header();
 
 <?php the_content(); ?>
 
-<?php
-echo esc_html( get_template_part( 'template-parts/pagination', 'infinite-scroll' ) );
-?>
-
+<div class="loginpage__background">
+       <h1>dsdsdasdas</h1>     
+ </div>
+ 
 <?php
 get_footer();
