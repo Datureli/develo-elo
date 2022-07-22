@@ -1,37 +1,48 @@
 .loginpage {
   &__background {
+    background-image: url("https://images.unsplash.com/photo-1451847251646-8a6c0dd1510c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
-    width: 100%;
+    width: 100%; 
     text-align: center;
+    align-items: center;
+    display: flex;
     justify-content: center;
   }
 
   &__logincontainer {
     background: var(--loginbackground);
-    height: 349px;
-    width: 323px;
-    margin: 100px auto;
+    height: 35rem;
+    width: 32rem;
+    margin: auto;
     padding: 10px;
-    border: 3px solid grey;
+    border-radius: 1rem;
+    text-align: center;
+    justify-content: center;
   }
 
   &__paraghraph {
-    margin-right: 30px;
+    font-family: var(--font-sans-serif);
     text-decoration: underline;
+  }
+
+  &__h1 {
+    font-family: var(--font-poppins);
   }
 
   &__flexcontainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
   &__button {
     background-color: var(--black);
     color: var(--white);
     height: 3.5rem;
     width: 7rem;
-    font-size: 1rem;
-    margin-left: 60px;
+    font-size: 1.5rem;
+    margin-right: 20px;
     margin-top: 17px;
     padding: 5px;
     border-radius: .4rem;
