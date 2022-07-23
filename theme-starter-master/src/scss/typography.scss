@@ -1,11 +1,7 @@
 h1,
 .h1 {
-  font-family: var(--font-poppins);
+  font-family: var(--font-monospace);
   font-weight: bold;
-  font-size: 3rem;
-  margin-left: 20px;
-  margin-bottom: 30px;
-  text-align: left;
 }
 
 h2,
@@ -46,14 +42,6 @@ h6,
 .h6 {
   font-family: var(--font-monospace);
   font-weight: bold;
-}
-
-p,
- .p {
-  margin-left: 20px;
-  margin-bottom: 30px;
-  font-size: 1.5rem;
-  text-align: left;
 }
 
 sub,

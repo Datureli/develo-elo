@@ -1,18 +1,16 @@
 .loginpage {
   &__background {
-    background-image: url("https://images.unsplash.com/photo-1451847251646-8a6c0dd1510c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%; 
+    display: flex;
     text-align: center;
     align-items: center;
-    display: flex;
     justify-content: center;
+    background: url("https://images.unsplash.com/photo-1451847251646-8a6c0dd1510c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
   }
 
-  &__logincontainer {
+  &__container {
     background: var(--loginbackground);
     height: 35rem;
     width: 32rem;
@@ -23,29 +21,57 @@
     justify-content: center;
   }
 
-  &__paraghraph {
+  &__first-paragraph {
+    font-family: var(--font-sans-serif);
+  }
+
+  &__second-paraghraph {
     font-family: var(--font-sans-serif);
     text-decoration: underline;
   }
 
+  &__align-paragraph {
+    margin-left: 18px;
+    margin-bottom: 30px;
+    font-size: 1.45rem;
+    text-align: left;
+  }
+
   &__h1 {
     font-family: var(--font-poppins);
+    font-size: 3rem;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    text-align: left;
   }
 
   &__flexcontainer {
     display: flex;
     justify-content: space-between;
   }
+
   &__button {
     background-color: var(--black);
     color: var(--white);
+    font-family: var(--font-poppins);
     height: 3.5rem;
     width: 7rem;
     font-size: 1.5rem;
     margin-right: 20px;
     margin-top: 17px;
     padding: 5px;
-    border-radius: .4rem;
+    border-radius: 0.4rem;
     cursor: pointer;
+  }
+
+  &__input {
+    color: var(--black);
+    width: 26.4rem;
+    height: 3.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    padding: 10px;
+    border-radius: 0.4rem;
+    border: 1px solid grey;
   }
 }
