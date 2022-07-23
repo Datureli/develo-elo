@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-<section class="loginpage">
+<div class="loginpage">
 <div class="loginpage__background">
     <div class="loginpage__container">
         <h1 class="loginpage__h1">Log in</h1>
@@ -16,7 +16,7 @@ get_header();
         </form>
     </div>
 </div>
-</section>
+</div>
 
  
 <?php
