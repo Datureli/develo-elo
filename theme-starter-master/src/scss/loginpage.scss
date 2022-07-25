@@ -21,20 +21,16 @@
     justify-content: center;
   }
 
-  &__description {
+  &__paragraph {
     font-family: var(--font-sans-serif);
-  }
-
-  &__remind-password {
-    font-family: var(--font-sans-serif);
-    text-decoration: underline;
-  }
-
-  &__align-left {
     margin-left: 18px;
     margin-bottom: 30px;
     font-size: 1.45rem;
     text-align: left;
+  }
+
+  &__underline {
+    text-decoration: underline;
   }
 
   &__h1 {
